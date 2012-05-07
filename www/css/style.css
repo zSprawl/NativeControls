@@ -1,0 +1,52 @@
+* {
+	-webkit-transform: translateZ(0);
+	-webkit-text-size-adjust: none;
+}
+
+.ui-page {
+    -webkit-backface-visibility: hidden;
+}
+
+.tableBox {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #FFF;
+    padding: 3px 8px;
+	margin-bottom: 8px;
+	display: block;
+}
+
+.tableBox p {
+    font-size: 16px;
+}
+
+.answerBox {
+    text-align: center;
+    font-size: 64px;
+}
+
+.tableBox h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#helpBox p {
+    text-align: justify;
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {  
+} 
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+} 
+

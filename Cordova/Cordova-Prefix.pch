@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Cordova' target in the 'Cordova' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
